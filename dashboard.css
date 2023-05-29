@@ -1,0 +1,57 @@
+* {
+	box-sizing: border-box;
+	font-family: Arial, sans-serif;
+}
+
+.header {
+	background-color: red;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+.sidebar {
+	float: left;
+	width: 25%;
+	background-color: #f1f1f1;
+	height: 100%;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+li a {
+	display: block;
+	color : red;
+	padding: 8px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #555;
+	color: #fff;
+}
+
+.content {
+	float: left;
+	padding: 20px;
+	width: 75%;
+}
+
+@media screen and (max-width: 700px) {
+	.sidebar {
+		width: 100%;
+		height: auto;
+	}
+	.content {
+		width: 100%;
+	}
+}
+.dashlogo1 {
+	float: left;
+	margin: 10px;
+	height: 50px;
+}
